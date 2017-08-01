@@ -1,0 +1,32 @@
+{
+  "name": "restfulapi",
+  "version": "1.0.0",
+  "description": "Test for full stack developer position",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/androlopez1/RESTfulAPI_NodeMongoDB.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Node",
+    "Mongo"
+  ],
+  "author": "Andrés López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/androlopez1/RESTfulAPI_NodeMongoDB/issues"
+  },
+  "homepage": "https://github.com/androlopez1/RESTfulAPI_NodeMongoDB#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.1",
+    "nodemon": "^1.11.0"
+  }
+}
